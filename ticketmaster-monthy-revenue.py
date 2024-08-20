@@ -10,7 +10,6 @@ order_link_ids = df['Sub Id 2']
 empty = np.where(pd.isnull(order_link_ids))
 print('Number of rows without an order_link_id:', empty[0].size)
 
-
 monthly_summary = df.resample('ME', on='date')['Action Earnings'].sum()
 
 ax = monthly_summary.plot(kind='line')
