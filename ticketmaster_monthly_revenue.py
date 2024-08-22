@@ -6,7 +6,7 @@ df = pd.read_csv('/home/evanbrown/table/impact/combined.csv')
 df['date'] = pd.to_datetime(df['Action Date'])
 
 print("Number of rows in CSV:", len(df.index))
-order_link_ids = df['Sub Id 2']
+order_link_ids = df['order_link_id']
 empty = np.where(pd.isnull(order_link_ids))
 print('Number of rows without an order_link_id:', empty[0].size)
 

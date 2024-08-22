@@ -24,7 +24,7 @@ yearly_clicks = df.resample('Y', on='action_date').agg({"number_of_ticket_clicks
 yearly_clicks = yearly_clicks.iloc[1:]
 yearly_clicks['date'] = yearly_clicks.index.strftime('%Y')
 ax = yearly_clicks.plot(kind='bar')
-ax.set_title('Yearly drop in ticket click numbers - 2023 to 2024')
+ax.set_title('Yearly drop in ticket clicks to Ticketmaster vendors - 2023 to 2024')
 ax.set_xticklabels(yearly_clicks['date'])
 fmt = '{x:,.0f}'
 tick = mtick.StrMethodFormatter(fmt)
