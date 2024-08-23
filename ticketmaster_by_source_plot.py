@@ -38,9 +38,11 @@ earnings_by_source_figure.set_tight_layout(True)
 earnings_by_user_type_figure.savefig('ticketmaster-by-user-type.png')
 
 earnings_by_source_year_graph = earnings_by_source_year.plot(kind='bar', stacked=True)
-earnings_by_source_year_graph.set_xlabel("Month")
+handles, labels = earnings_by_source_year_graph.get_legend_handles_labels()
+earnings_by_source_year_graph.legend(reversed(handles), reversed(labels), bbox_to_anchor=(1,1))
+earnings_by_source_year_graph.set_xlabel("Year")
 earnings_by_source_year_graph.set_ylabel("Total Earnings")
-earnings_by_source_year_graph.set_title('Monthly earnings from Ticketmaster by user type')
+earnings_by_source_year_graph.set_title('Yearly earnings from Ticketmaster by source')
 earnings_by_source_year_graph.yaxis.set_major_formatter(tick)
 
 earnings_by_source_year_figure = earnings_by_source_year_graph.get_figure()
