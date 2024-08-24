@@ -14,7 +14,7 @@ def label_source(row):
 
 
 impact_df = pd.read_csv('/home/evan/Documents/development/table/impact/combined.csv')
-click_df = pd.read_csv('/home/evan/Documents/development/table/click view/uncompressed/combined.csv')
+click_df = pd.read_csv('/home/evan/Documents/development/table/click view/without_order_link_id/combined/combined.csv')
 impact_df.rename(columns={'Sub Id 2': 'order_link_id'}, inplace=True)
 
 combined_df = impact_df.merge(click_df, on=['order_link_id'], how='inner')
