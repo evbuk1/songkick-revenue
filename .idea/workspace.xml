@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bc57aa-9dc6-4d14-8b33-46f7effed7cd" name="Changes" comment="Add pipfile">
-      <change beforePath="$PROJECT_DIR$/ticketmaster_by_source_data_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_by_source_data_prep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketmaster_monthly_revenue.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_monthly_revenue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketmaster_revenue_by_country.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_revenue_by_country.py" afterDir="false" />
+    <list default="true" id="23bc57aa-9dc6-4d14-8b33-46f7effed7cd" name="Changes" comment="Change paths">
+      <change afterPath="$PROJECT_DIR$/ticketmaster_by_user_type_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketmaster_earnings_by_source_year_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketmaster_yearly_ticket_clicks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/songkick-revenue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/songkick-revenue.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketmaster_by_source_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_by_source_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketmaster_monthly_ticket_clicks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_monthly_ticket_clicks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/evan/Documents/development/songkick-revenue"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/evan/Documents/development/songkick-revenue&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,12 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724496044066</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change paths">
+      <option name="closed" value="true" />
+      <created>1724496808380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724496808380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
     <MESSAGE value="Add pipfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pipfile" />
+    <MESSAGE value="Change paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change paths" />
   </component>
 </project>
