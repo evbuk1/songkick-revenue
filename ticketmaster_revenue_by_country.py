@@ -3,7 +3,7 @@
 import pandas as pd
 import matplotlib.ticker as mtick
 
-df = pd.read_csv('/home/evanbrown/table/impact/combined.csv')
+df = pd.read_csv('/home/evan/Documents/development/table/impact/combined.csv')
 df['action_date'] = pd.to_datetime(df['Action Date'])
 
 fmt = '${x:,.0f}'

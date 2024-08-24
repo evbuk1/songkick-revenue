@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.ticker as mtick
 import numpy as np
 
-df = pd.read_csv('/home/evanbrown/table/impact/combined.csv')
+df = pd.read_csv('/home/evan/Documents/development/table/impact/combined.csv')
 df['date'] = pd.to_datetime(df['Action Date'])
 
 print("Number of rows in CSV:", len(df.index))

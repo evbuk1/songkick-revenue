@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bc57aa-9dc6-4d14-8b33-46f7effed7cd" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketmaster_by_source_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_by_source_plot.py" afterDir="false" />
+    <list default="true" id="23bc57aa-9dc6-4d14-8b33-46f7effed7cd" name="Changes" comment="Add pipfile">
+      <change beforePath="$PROJECT_DIR$/ticketmaster_by_source_data_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_by_source_data_prep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketmaster_monthly_revenue.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_monthly_revenue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketmaster_revenue_by_country.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_revenue_by_country.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +26,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/evan/Documents/development/songkick-revenue"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+        <option value="bundled-python-sdk-abccbe9d933a-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.428" />
       </set>
     </attachedChunks>
   </component>
@@ -56,11 +58,20 @@
       <option name="project" value="LOCAL" />
       <updated>1724413634624</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add pipfile">
+      <option name="closed" value="true" />
+      <created>1724496044066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724496044066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="Add pipfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add pipfile" />
   </component>
 </project>
