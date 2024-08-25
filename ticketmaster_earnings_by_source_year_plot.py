@@ -22,7 +22,6 @@ earnings_by_source_year['unattributed'] = unattributed_list
 earnings_by_source_year.loc['Total'] = earnings_by_source_year.sum()
 earnings_by_source_year = earnings_by_source_year.sort_values('Total', axis=1, ascending=True).drop('Total')
 earnings_by_source_year.index = pd.to_datetime(earnings_by_source_year.index).strftime('%Y')
-print(earnings_by_source_year.head(10))
 
 earnings_by_source_year_graph = earnings_by_source_year.plot(kind='bar', stacked=True)
 handles, labels = earnings_by_source_year_graph.get_legend_handles_labels()
