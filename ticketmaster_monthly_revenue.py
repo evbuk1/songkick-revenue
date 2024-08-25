@@ -5,11 +5,6 @@ import numpy as np
 df = pd.read_csv('/home/evan/Documents/development/table/impact/combined.csv')
 df['date'] = pd.to_datetime(df['Action Date'])
 
-print("Number of rows in CSV:", len(df.index))
-order_link_ids = df['order_link_id']
-empty = np.where(pd.isnull(order_link_ids))
-print('Number of rows without an order_link_id:', empty[0].size)
-
 monthly_summary = df.resample('ME', on='date')['Action Earnings'].sum()
 
 ax = monthly_summary.plot(kind='line')
