@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bc57aa-9dc6-4d14-8b33-46f7effed7cd" name="Changes" comment="Change paths">
-      <change afterPath="$PROJECT_DIR$/ticketmaster_by_source_left_data_prep.py" afterDir="false" />
+    <list default="true" id="23bc57aa-9dc6-4d14-8b33-46f7effed7cd" name="Changes" comment="Correct approach to by source plot">
+      <change afterPath="$PROJECT_DIR$/ticketmaster_by_user_type_yearly_plot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketmaster_earnings_by_source_year_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_earnings_by_source_year_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketmaster_by_user_type_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_by_user_type_monthly_plot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +75,22 @@
       <option name="project" value="LOCAL" />
       <updated>1724496808380</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Correct approach to by source plot">
+      <option name="closed" value="true" />
+      <created>1724670247747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724670247747</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
     <MESSAGE value="Add pipfile" />
     <MESSAGE value="Change paths" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change paths" />
+    <MESSAGE value="Correct approach to by source plot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct approach to by source plot" />
   </component>
 </project>
