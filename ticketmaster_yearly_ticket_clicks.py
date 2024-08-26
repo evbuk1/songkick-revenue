@@ -7,8 +7,6 @@ df['action_date'] = pd.to_datetime(df['date'])
 df.rename(columns={'category': 'number_of_ticket_clicks'}, inplace=True)
 yearly_clicks = df.resample('Y', on='action_date').agg({"number_of_ticket_clicks":'count'})
 
-#yearly_clicks = yearly_clicks.iloc[1:]
-
 yearly_clicks['date'] = yearly_clicks.index.strftime('%Y')
 
 ax = yearly_clicks.plot(kind='bar')

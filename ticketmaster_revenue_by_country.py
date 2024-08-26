@@ -23,8 +23,8 @@ earnings_by_country_graph.set_ylabel("Total Earnings")
 earnings_by_country_graph.set_title('Ticketmaster Monthly Earnings - top 5 countries')
 earnings_by_country_graph.yaxis.set_major_formatter(tick)
 handles, labels = earnings_by_country_graph.get_legend_handles_labels()
-earnings_by_country_graph.legend(reversed(handles), reversed(labels), bbox_to_anchor=(1,1))
-
+order = [4, 3, 1, 0, 2]
+earnings_by_country_graph.legend([handles[idx] for idx in order],[labels[idx] for idx in order])
 earnings_by_country_figure = earnings_by_country_graph.get_figure()
 earnings_by_country_figure.set_tight_layout(True)
 earnings_by_country_figure.savefig('ticketmaster-monthly-earnings-by-country.png')

@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bc57aa-9dc6-4d14-8b33-46f7effed7cd" name="Changes" comment="Correct approach to by source plot">
-      <change afterPath="$PROJECT_DIR$/ticketmaster_by_user_type_yearly_plot.py" afterDir="false" />
+    <list default="true" id="23bc57aa-9dc6-4d14-8b33-46f7effed7cd" name="Changes" comment="User type plot update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketmaster_by_user_type_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_by_user_type_monthly_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketmaster_by_source_data_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_by_source_data_prep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketmaster_by_source_left_data_prep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketmaster_by_source_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketmaster_revenue_by_country.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_revenue_by_country.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketmaster_yearly_ticket_clicks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketmaster_yearly_ticket_clicks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724670247747</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="User type plot update">
+      <option name="closed" value="true" />
+      <created>1724679761152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724679761153</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -91,6 +102,7 @@
     <MESSAGE value="Add pipfile" />
     <MESSAGE value="Change paths" />
     <MESSAGE value="Correct approach to by source plot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct approach to by source plot" />
+    <MESSAGE value="User type plot update" />
+    <option name="LAST_COMMIT_MESSAGE" value="User type plot update" />
   </component>
 </project>
