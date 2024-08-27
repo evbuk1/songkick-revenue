@@ -9,7 +9,7 @@ df['date'] = pd.to_datetime(df['Action Date'])
 df = df.loc[df['date'].dt.month == 7]
 
 monthly_summary = df.resample('ME', on='date')['Action Earnings'].sum().loc[lambda x: x!= 0]
-print(monthly_summary)
+monthly_summary.index = pd.to_datetime(monthly_summary.index).strftime('%m-%Y')
 
 ax = monthly_summary.plot(kind='bar')
 ax.set_xlabel("Month and year")
