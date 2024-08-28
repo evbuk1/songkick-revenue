@@ -20,4 +20,5 @@ earnings_by_user_type_graph.set_title('Monthly earnings from Ticketmaster by use
 earnings_by_user_type_graph.yaxis.set_major_formatter(tick)
 
 earnings_by_user_type_figure = earnings_by_user_type_graph.get_figure()
+earnings_by_user_type_figure.set_tight_layout(True)
 earnings_by_user_type_figure.savefig('ticketmaster-by-user-type.png')

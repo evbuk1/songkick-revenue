@@ -20,7 +20,7 @@ earnings_by_user_type.index = pd.to_datetime(earnings_by_user_type.index).strfti
 earnings_by_user_type_graph = earnings_by_user_type.plot(kind='bar', stacked=True)
 handles, labels = earnings_by_user_type_graph.get_legend_handles_labels()
 earnings_by_user_type_graph.legend(reversed(handles), reversed(labels), bbox_to_anchor=(1,1))
-earnings_by_user_type_graph.set_xlabel("Year and month")
+earnings_by_user_type_graph.set_xlabel("Month and year")
 earnings_by_user_type_graph.set_ylabel("Total Earnings")
 earnings_by_user_type_graph.set_title('July earnings from Ticketmaster by user type - 2022 to 2024')
 earnings_by_user_type_graph.yaxis.set_major_formatter(tick)
