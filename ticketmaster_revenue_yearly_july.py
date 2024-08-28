@@ -2,7 +2,6 @@ from calendar import month
 
 import pandas as pd
 import matplotlib.ticker as mtick
-import numpy as np
 
 df = pd.read_csv('/home/evan/Documents/development/table/impact/combined.csv')
 df['date'] = pd.to_datetime(df['Action Date'])

@@ -1,7 +1,7 @@
 import pandas as pd
-import matplotlib.ticker as mtick
 
 df = pd.read_pickle('ticket_clicks.pkl')
+# df is already limited to July by preparation script in ticketmaster_click_prep.py
 
 df.rename(columns={'category': 'number_of_ticket_clicks'}, inplace=True)
 monthly_clicks = df.resample('ME', on='action_date').agg({'number_of_ticket_clicks': 'count'})
